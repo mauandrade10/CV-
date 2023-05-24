@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0
+}
+
+body{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    width: 60%;
+    background-color: white;
+}
+
+main .titte_cv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid grey;
+}
+
+main .titte_cv h1{
+    font-size: 50px;
+    color: grey;
+}
+
+main .titte_cv img{
+    width: 300px;
+    height: 300px;
+    border-radius: 500px;
+}
+
+main .titte_cv h2{
+    font-size: 30px;
+    color: grey;
+}
+
+main .contact-description{
+    width: 100%;
+    display: flex;
+    border-bottom: 5px solid grey;
+    justify-content: center;
+}
+
+main .contact-description #contact-section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    border-right: 5px solid grey;
+}
+
+main .contact-description h2{
+    font-size: 20px;
+    color: grey;
+}
+
+main .contact-description #contact-section ul{
+    list-style: none;
+    padding: 0;
+}
+
+main .contact-description #contact-section li{
+    display: flex;
+    align-items: center;
+}
+
+main .contact-description #contact-section li img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+main .contact-description #description-section{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+main .contact-description #description-section{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+main .contact-description #description-section .profile-description{
+    width: 90%;
+}
+
+main .skills-experience{
+    display: flex;
+    justify-content
+}
+
+main .skills-experience h2{
+    font-size: 20px;
+    color: grey;
+    margin-left: 50px;
+}
+
+main .skills-experience ul{
+    margin-left: 50px;
+    padding: 15px;
+}
+
+main .skills-experience #skills-section{
+    display: flex;
+    flex-direction: column;
+    border-right: 5px solid grey;
+    width: 440px;
+}
+
+main .skills-experience #skills-section div{
+    border-bottom: 5px solid grey;
+}
+
+main .skills-experience #experience-section{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+main .skills-experience #experience-section ul{
+    margin-bottom: 24px;
+}
+
+main .skills-experience #experience-section div{
+    border-bottom: 5px solid grey;
+}
+
+main .skills-experience #experience-section #laburo{
+    padding-bottom: 8px;
+}
